@@ -6,7 +6,7 @@ on:
       - '**/Cargo.lock'
 defaults:
   run:
-    working-directory: 'tusee-be'
+    working-directory: './tusee-be'
 jobs:
   security_audit:
     runs-on: ubuntu-latest
